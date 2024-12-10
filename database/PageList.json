@@ -1,0 +1,47 @@
+{
+  "skills": {
+    "isActive": true,
+    "showOnNavigation": true,
+    "showOnFooter": true,
+    "title": "Skills",
+    "description": "Explore the skills I bring to the table, from frontend development to design and optimization.",
+    "image": "",
+    "link": "#skills"
+  },
+  "experience": {
+    "isActive": true,
+    "showOnNavigation": true,
+    "showOnFooter": true,
+    "title": "Experience",
+    "description": "Take a look at my work experience and how I’ve helped build cool web apps.",
+    "image": "",
+    "link": "#experience"
+  },
+  "resume": {
+    "isActive": true,
+    "showOnNavigation": true,
+    "showOnFooter": true,
+    "title": "Resume",
+    "description": "See a quick summary of my work history and achievements.",
+    "image": "",
+    "link": "#resume"
+  },
+  "contact": {
+    "isActive": true,
+    "showOnNavigation": true,
+    "showOnFooter": false,
+    "title": "Contact",
+    "description": "Now it’s your turn to say hi. I hope to hear from you!",
+    "image": "",
+    "link": "#footer"
+  },
+  "instagram": {
+    "isActive": true,
+    "showOnNavigation": false,
+    "showOnFooter": true,
+    "title": "Instagram",
+    "description": "Capturing moments and sharing the best of my life.",
+    "image": "",
+    "link": "https://www.instagram.com/pramod__sh/"
+  }
+}

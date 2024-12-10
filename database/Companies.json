@@ -1,0 +1,38 @@
+[
+	{
+		"position": "Senior Software Engineer",
+		"company": "Codilar Technologies",
+		"duration": "March 2021 - Present",
+		"location": "On-site",
+		"responsibilities": [
+			"Developed dynamic and responsive web apps using React JS, enhancing user experience across platforms.",
+			"Implemented PWA features, boosting mobile traffic by 30% and improving overall user engagement.",
+			"Optimized website performance with precision, ensuring fast load times and smooth user interactions.",
+			"Integrated payment gateways like Apple Pay and Tabby, ensuring secure and seamless transactions.",
+			"Led B2B feature implementation, including Quick Order and Company Credit, for a more efficient PWA experience."
+		],
+		"color": {
+			"h": "221",
+			"s": "79%",
+			"l": "51%"
+		}
+	},
+	{
+		"position": "Web Development Intern",
+		"company": "Rayies Global Solutions",
+		"duration": "July 2019 - August 2019",
+		"location": "On-site",
+		"responsibilities": [
+			"Assisted in building basic web pages using HTML, CSS, and JavaScript.",
+			"Collaborated with team members to implement simple features on websites.",
+			"Participated in basic website testing to ensure compatibility across browsers.",
+			"Helped with maintaining and updating website content as needed.",
+			"Learned and applied best practices for web development in a team environment."
+		],
+		"color": {
+			"h": "210",
+			"s": "0%",
+			"l": "90%"
+		}
+	}
+]
