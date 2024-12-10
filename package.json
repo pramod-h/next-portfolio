@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": " next dev --experimental-https",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@gsap/react": "^2.0.2",
+    "@next/bundle-analyzer": "^15.1.0",
     "@studio-freight/lenis": "^1.0.33",
     "@uidotdev/usehooks": "^2.4.1",
     "@vercel/analytics": "^1.1.2",
@@ -17,6 +18,8 @@
     "framer-motion": "^10.18.0",
     "gsap": "file:gsap-bonus.tgz",
     "next": "^14.1.0",
+    "next-optimized-classnames": "^1.0.2",
+    "next-pwa": "^5.6.0",
     "react": "^18",
     "react-dom": "^18",
     "react-fast-marquee": "^1.6.2",
