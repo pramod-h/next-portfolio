@@ -64,7 +64,7 @@ export default function Footer() {
             {commonConfig.personal.surname}
             <br />
             Powered by&nbsp; Next.js, and &nbsp;
-            <Link href="https://github.com/Pramod69">GitHub</Link>.
+            <Link href="https://github.com/pramod-h">GitHub</Link>.
             <br />
             {`${commonConfig.personal.city}, ${commonConfig.personal.state} ${currentTime}`}
             &nbsp;
