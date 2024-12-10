@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "name": "Pramod",
+    "title": "Pramod H - Front-End Developer",
+    "description": "I design snappy, sleek, and speedy websites that wow and work for everyone.",
+    "timeZone": "Asia/Kolkata",
+    "locale": "en-IN"
+  },
+  "personal": {
+    "name": "Pramod",
+    "surname": "H",
+    "role": "Front-End Developer",
+    "experience": 3,
+    "email": "pramodsh582@gmail.com",
+    "phone": "+919481280459",
+    "city": "Bengaluru",
+    "state": "KA",
+    "country": "IN",
+    "username": "@pramod__sh",
+    "resumeURL": "https://drive.google.com/file/d/1YbXIaIjIpUx6SjmTluSPc-iVkyWGdz1D/view?usp=sharing"
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/pramod__sh",
+    "linkedin": "https://www.linkedin.com/in/pramod-h/",
+    "github": "https://github.com/Pramod69"
+  }
+}

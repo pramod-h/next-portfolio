@@ -1,0 +1,65 @@
+[
+  {
+    "icon": "IconHTML",
+    "image": "/icon/icon-html.svg",
+    "title": "HTML",
+    "subtitle": "Semantic Markup",
+    "description": "I structure web content with clean, semantic HTML to ensure accessibility and SEO-friendly websites."
+  },
+  {
+    "icon": "IconCSS",
+    "image": "/icon/icon-css.svg",
+    "title": "CSS",
+    "subtitle": "Sass & Animations",
+    "description": "I craft visually stunning and responsive designs with CSS, Sass, and advanced animation techniques for seamless experiences."
+  },
+  {
+    "icon": "IconJS",
+    "image": "/icon/icon-js.svg",
+    "title": "JavaScript",
+    "subtitle": "ES6+ & TypeScript",
+    "description": "I build dynamic and interactive web experiences using modern JavaScript and TypeScript for robust and maintainable code."
+  },
+  {
+    "icon": "IconReact",
+    "image": "/icon/icon-react.svg",
+    "title": "React JS",
+    "subtitle": "Next.js & PWA",
+    "description": "I develop scalable, high-performance web applications with React and Next.js, leveraging modern tools for PWAs and SSR."
+  },
+  {
+    "icon": "IconGraphQL",
+    "image": "/icon/icon-graphql.svg",
+    "title": "GraphQL",
+    "subtitle": "Data Queries",
+    "description": "I integrate GraphQL APIs to efficiently fetch and manage data, enhancing the speed and flexibility of web applications."
+  },
+  {
+    "icon": "IconGSAP",
+    "image": "/icon/icon-gsap.svg",
+    "title": "GSAP",
+    "subtitle": "Scroll Animations",
+    "description": "I bring web pages to life with GSAP, creating smooth, eye-catching animations for a captivating user experience."
+  },
+  {
+    "icon": "IconMagento",
+    "image": "/icon/icon-magento.svg",
+    "title": "Magento",
+    "subtitle": "E-Commerce",
+    "description": "I specialize in developing and optimizing e-commerce solutions using Magento, ensuring robust and user-friendly stores."
+  },
+  {
+    "icon": "IconPerformance",
+    "image": "/icon/icon-performance.svg",
+    "title": "Performance",
+    "subtitle": "Optimization",
+    "description": "I ensure websites load fast and run smoothly by optimizing assets, code, and performance metrics."
+  },
+  {
+    "icon": "IconDesign",
+    "image": "/icon/icon-design.svg",
+    "title": "UI/UX Design",
+    "subtitle": "Aesthetic Interfaces",
+    "description": "I combine technical expertise with an eye for design to create intuitive and aesthetically pleasing interfaces."
+  }
+]
