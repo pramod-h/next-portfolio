@@ -1,56 +1,54 @@
-'use client';
+"use client";
 
-import React, { useRef } from 'react';
+import React, { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import styles from './CustomCursor.module.scss';
+import styles from "./CustomCursor.module.scss";
 
 export default function CustomCursor() {
-    const container = useRef();
+  const container = useRef();
 
-    useGSAP(() => {
-        const cursor = `.${styles.customCursor}`;
+  useGSAP(
+    () => {
+      const cursor = container.current.querySelector(`.${styles.customCursor}`);
 
-        // Handle mousemove event
-        const handleMouseMove = (event) => {
-            const {clientX, clientY} = event;
+      if (!cursor) return;
 
-            // Update cursor position
-            gsap.to(cursor, {
-                x: clientX - 6,
-                y: clientY - 6,
-                duration: 0.3,
-                ease: 'power2.out'
-            });
-        };
+      gsap.set(cursor, { x: -100, y: -100 });
 
-        // Animate on Click
-        const handleClick = () => {
-            gsap.to(cursor, {
-                scale: 1.8,
-                duration: 0.2,
-                onComplete: () => {
-                    gsap.to(cursor, {
-                        scale: 1,
-                        duration: 0.2,
-                    });
-                }
-            });
-        };
+      const handleMouseMove = (event) => {
+        gsap.to(cursor, {
+          x: event.clientX - 6,
+          y: event.clientY - 6,
+          duration: 0.3,
+          ease: "power2.out",
+        });
+      };
 
-        // Attach event listener
-        window.addEventListener('pointermove', handleMouseMove);
-        window.addEventListener('click', handleClick);
+      const handleClick = () => {
+        gsap.to(cursor, {
+          scale: 1.8,
+          duration: 0.2,
+          onComplete: () => gsap.to(cursor, { scale: 1, duration: 0.2 }),
+        });
+      };
 
-        // Cleanup event listener on component unmount
-        return () => {
-            window.removeEventListener('pointermove', handleMouseMove);
-            window.removeEventListener('click', handleClick);
-        };
-    }, {scope: container});
-    return (
-        <div ref={container}>
-            <div className={`${styles.customCursor}`}></div>
-        </div>
-    );
+      document.body.addEventListener("pointermove", handleMouseMove, {
+        passive: true,
+      });
+      document.body.addEventListener("click", handleClick, { passive: true });
+
+      return () => {
+        document.body.removeEventListener("pointermove", handleMouseMove);
+        document.body.removeEventListener("click", handleClick);
+      };
+    },
+    { scope: container }
+  );
+
+  return (
+    <div ref={container}>
+      <div className={styles.customCursor}></div>
+    </div>
+  );
 }

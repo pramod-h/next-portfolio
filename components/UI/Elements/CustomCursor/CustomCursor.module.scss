@@ -1,4 +1,4 @@
-.customCursor{
+.customCursor {
   --cursor-size: 1.2rem;
   position: fixed;
   top: 0;
@@ -12,8 +12,21 @@
   user-select: none;
   pointer-events: none;
 
-  @media (pointer: coarse), (pointer: none) {
-    display: none;
+  &::before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: calc(100% + 16px);
+    height: calc(100% + 16px);
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
   }
 
+  @media (pointer: coarse),
+  (pointer: none) {
+    display: none;
+  }
 }

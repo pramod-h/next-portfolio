@@ -3,42 +3,60 @@
     "icon": "IconHTML",
     "image": "/icon/icon-html.svg",
     "title": "HTML",
-    "subtitle": "Semantic Markup",
     "description": "I structure web content with clean, semantic HTML to ensure accessibility and SEO-friendly websites."
   },
   {
     "icon": "IconCSS",
     "image": "/icon/icon-css.svg",
     "title": "CSS",
-    "subtitle": "Sass & Animations",
     "description": "I craft visually stunning and responsive designs with CSS, Sass, and advanced animation techniques for seamless experiences."
   },
   {
     "icon": "IconJS",
     "image": "/icon/icon-js.svg",
     "title": "JavaScript",
-    "subtitle": "ES6+ & TypeScript",
     "description": "I build dynamic and interactive web experiences using modern JavaScript and TypeScript for robust and maintainable code."
+  },
+  {
+    "icon": "IconSCSS",
+    "image": "/icon/icon-scss.svg",
+    "title": "SCSS",
+    "description": "I write scalable, maintainable, and modular styles using SCSS to enhance project structure and reusability."
   },
   {
     "icon": "IconReact",
     "image": "/icon/icon-react.svg",
     "title": "React JS",
-    "subtitle": "Next.js & PWA",
-    "description": "I develop scalable, high-performance web applications with React and Next.js, leveraging modern tools for PWAs and SSR."
+    "description": "I develop scalable, high-performance web applications with React, leveraging modern tools for PWAs."
+  },
+  {
+    "icon": "IconRedux",
+    "image": "/icon/icon-redux.svg",
+    "title": "Redux",
+    "description": "I manage complex application states efficiently with Redux, ensuring predictable and scalable state management."
+  },
+  {
+    "icon": "IconReactNative",
+    "image": "/icon/icon-reactnative.svg",
+    "title": "React Native",
+    "description": "I develop cross-platform mobile applications with React Native, ensuring seamless performance on both iOS and Android."
+  },
+  {
+    "icon": "IconNextJS",
+    "image": "/icon/icon-nextjs.svg",
+    "title": "Next.js",
+    "description": "I build fast, SEO-friendly web applications with Next.js, leveraging SSR, ISR, and API routes for better performance."
   },
   {
     "icon": "IconGraphQL",
     "image": "/icon/icon-graphql.svg",
     "title": "GraphQL",
-    "subtitle": "Data Queries",
     "description": "I integrate GraphQL APIs to efficiently fetch and manage data, enhancing the speed and flexibility of web applications."
   },
   {
     "icon": "IconGSAP",
     "image": "/icon/icon-gsap.svg",
     "title": "GSAP",
-    "subtitle": "Scroll Animations",
     "description": "I bring web pages to life with GSAP, creating smooth, eye-catching animations for a captivating user experience."
   },
   {
@@ -50,16 +68,9 @@
   },
   {
     "icon": "IconPerformance",
-    "image": "/icon/icon-performance.svg",
+    "image": "/icon/icon-optimization.svg",
     "title": "Performance",
     "subtitle": "Optimization",
-    "description": "I ensure websites load fast and run smoothly by optimizing assets, code, and performance metrics."
-  },
-  {
-    "icon": "IconDesign",
-    "image": "/icon/icon-design.svg",
-    "title": "UI/UX Design",
-    "subtitle": "Aesthetic Interfaces",
-    "description": "I combine technical expertise with an eye for design to create intuitive and aesthetically pleasing interfaces."
+    "description": "I ensure websites load fast and run smoothly by optimizing assets, code, and performance metrics. I utilize Webpack, lazy loading, caching strategies, and code splitting for better performance."
   }
 ]

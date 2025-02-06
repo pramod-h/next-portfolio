@@ -89,18 +89,24 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 /* Prevent font size inflation */
 html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
-
+  scrollbar-width: none;
+  -ms-overflow-style: none;
   font-size: 62.5%;
 }
 
 /* Remove default margin */
 * {
   margin: 0;
+  cursor: none !important;
 }
 
 /* Remove list styles on ul and ol */
